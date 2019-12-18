@@ -72,7 +72,7 @@ export type EmojiData = {
 };
 
 const data = (untypedData as Array<EmojiData>)
-  .filter(emoji => emoji.has_img_apple)
+  .filter(emoji => emoji.has_img_google)
   .map(emoji =>
     // Why this weird map?
     // the emoji dataset has two separate categories for Emotions and People
@@ -92,7 +92,7 @@ const ROOT_PATH = get(
 );
 
 const makeImagePath = (src: string) => {
-  return `${ROOT_PATH}node_modules/emoji-datasource-apple/img/apple/64/${src}`;
+  return `${ROOT_PATH}node_modules/emoji-datasource-google/img/google/64/${src}`;
 };
 
 const imageQueue = new PQueue({ concurrency: 10, timeout: 1000 * 60 * 2 });

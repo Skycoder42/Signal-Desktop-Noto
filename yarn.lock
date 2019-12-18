@@ -6429,10 +6429,10 @@ email-validator@^2.0.4:
   resolved "https://registry.yarnpkg.com/email-validator/-/email-validator-2.0.4.tgz#b8dfaa5d0dae28f1b03c95881d904d4e40bfe7ed"
   integrity sha512-gYCwo7kh5S3IDyZPLZf6hSS0MnZT8QmJFqYvbqlDZSbwdZlY6QZWxJ4i/6UhITOJ4XzyI647Bm2MXKCLqnJ4nQ==
 
-emoji-datasource-apple@6.0.0:
+emoji-datasource-google@6.0.0:
   version "6.0.0"
-  resolved "https://registry.yarnpkg.com/emoji-datasource-apple/-/emoji-datasource-apple-6.0.0.tgz#1d5f7bae0327d4fb4cae0a0003f6cea4d80f06d6"
-  integrity sha512-MiYF8bKyNSxBiBZn0Ln/F4CN1X6h+WQUo8QNknhXzxJPC//cMNKrjOUAyyAUYUij11WjjYBu0uKrjVu2BsMhMw==
+  resolved "https://registry.yarnpkg.com/emoji-datasource-google/-/emoji-datasource-google-6.0.0.tgz#87f71242041e5ac1f2b57b57d9421200ceb3352a"
+  integrity sha512-TuJBooIRjDsdp0x0mlGNr7gAwi0mFeA+P8KBHGWIzoArGZaltYu+KDUOB/rdfcqnEQUkTB9dBuYJmgiSXeHkzQ==
 
 emoji-datasource@6.0.0:
   version "6.0.0"
